@@ -1,9 +1,9 @@
-package Sample;
+package Algorithm;
 
 import java.io.*;
 import java.util.*;
 
-public class Sample2 {
+public class Main {
     static int n, m;
     static boolean c[];
     static int a[];
@@ -12,16 +12,11 @@ public class Sample2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-
-        c = new boolean[n + 1];
-        a = new int[n + 1];
-
-        // go(0);
-
-        System.out.println(m);
+        ArrayList<Integer> Lst = new ArrayList<>();
+        Lst.add(2);
+        Lst.add(2);
+        Lst.add(2);
+        System.out.println(Lst);
     }
 
     // public static void go(int index) {

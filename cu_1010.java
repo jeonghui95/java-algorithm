@@ -1,4 +1,4 @@
-package Sample;
+package Algorithm;
 
 import java.io.*;
 import java.util.*;
