@@ -1,15 +1,11 @@
-package Algorithm;
-
+package Algorithm.Java;
 import java.io.*;
 import java.util.*;
 
-class code_up {
-    // static int a;
+class cu_1111 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        String a = st.nextToken();
-        System.out.println(a);
+        int a = Integer.parseInt(br.readLine());
+        System.out.println(String.format("%s%%", a));
     }
-
 }

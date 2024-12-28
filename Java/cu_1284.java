@@ -1,5 +1,4 @@
-package Algorithm;
-
+package Algorithm.Java;
 import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -29,7 +28,7 @@ class cu_1284 {
             System.out.printf("%s %s", renum, num / renum);
         } else {
             // System.out.println(Lst.size());
-            System.out.println(Lst);
+            // System.out.println(Lst);
             System.out.print("wrong number");
         }
 

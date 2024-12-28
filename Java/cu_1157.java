@@ -1,5 +1,4 @@
-package Algorithm;
-
+package Algorithm.Java;
 import java.io.*;
 import java.util.*;
 
