@@ -17,6 +17,7 @@ public class Main {
         Lst.add(2);
         Lst.add(2);
         System.out.println(Lst);
+        System.out.println("01");
     }
 
     // public static void go(int index) {
